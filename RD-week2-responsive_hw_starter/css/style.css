@@ -1,4 +1,7 @@
+/* ============================= */
 /* Base Styling */
+/* ============================= */
+
 body {
   background-color: #dedede;
   font-family: Arial, sans-serif;
@@ -9,20 +12,25 @@ h1 {
   font-size: 32px;
 }
 
+h2 {
+  text-align: center;
+}
+
 p {
   text-align: center;
   font-size: 20px;
 }
 
 a {
-  color: #000;
+  color: black;
   text-decoration: none;
 }
 
 /* ============================= */
-/* Mobile First (Default) */
+/* Mobile First (DEFAULT) */
 /* ============================= */
 
+/* THIS IS THE FIX YOU WERE MISSING */
 div {
   display: block;
   width: 90%;
@@ -30,6 +38,7 @@ div {
   padding: 5px;
 }
 
+/* Image handling */
 div img {
   width: 100%;
   max-width: 200px;
@@ -61,7 +70,7 @@ div img {
 @media screen and (min-width: 998px) {
 
   div {
-    width: 30%;
     display: inline-block;
+    width: 30%;
   }
 }
