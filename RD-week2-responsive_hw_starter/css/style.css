@@ -28,7 +28,7 @@ a {
 }
 
 /* ============================= */
-/* Mobile First (DEFAULT) */
+/* Mobile First */
 /* ============================= */
 
 div {
@@ -46,11 +46,10 @@ div img {
 }
 
 /* ============================= */
-/* Tablet View (>= 772px) */
+/* Tablet (>= 772px) */
 /* ============================= */
 
 @media screen and (min-width: 772px) {
-
   div {
     display: inline-block;
     width: 45%;
@@ -67,7 +66,6 @@ div img {
 /* ============================= */
 
 @media screen and (min-width: 998px) {
-
   div {
     display: inline-block;
     width: 30%;
