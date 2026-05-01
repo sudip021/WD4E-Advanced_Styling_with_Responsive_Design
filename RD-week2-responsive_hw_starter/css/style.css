@@ -5,6 +5,7 @@
 body {
   background-color: #dedede;
   font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 h1 {
@@ -30,7 +31,6 @@ a {
 /* Mobile First (DEFAULT) */
 /* ============================= */
 
-/* THIS IS THE FIX YOU WERE MISSING */
 div {
   display: block;
   width: 90%;
@@ -38,7 +38,6 @@ div {
   padding: 5px;
 }
 
-/* Image handling */
 div img {
   width: 100%;
   max-width: 200px;
